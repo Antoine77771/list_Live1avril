@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var siteData: [SiteTouristiqueModel]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       SiteListView(siteDatas: siteData)
     }
 }
 
